@@ -1,5 +1,5 @@
 body {
-	background: url('slike/old_map.png');
+	background: url('slike/debut_light.png');
 }
 /* ------ Zaglavlje / početak ------ */
 .zaglavlje {
@@ -53,7 +53,7 @@ body {
 /* ------ Navigacija / početak ------ */
 .navigacija {
 	height: 70px;
-	background-color: #F1C40F;
+	background-color: #808080;
 }
 .navigacija li {
 	display: inline;
@@ -68,11 +68,10 @@ body {
 }
 .navigacija .hamburger {
 	text-align: right;
-	font-size: 24pt;
+	font-size: 22pt;
 	line-height: 70px;
 	padding-right: 40px;
 	display: none;
-	color: white;
 }
 .navigacija .main-menu {
 	margin-bottom: 0;
@@ -84,7 +83,7 @@ body {
 	.navigacija .main-menu li {
 		border-top: 1px solid black;
 		display: block;
-		background-color: #F1C40F;
+		background-color: #808080;
 	}
 	.navigacija {
 		height: auto;
@@ -106,11 +105,11 @@ body {
 	margin-top: 40px;
 }
 .slider h2 {
-	font-size: 18pt;
+	font-size: 14pt;
 	text-transform: uppercase;
 }
 .slider p {
-	font-size: 14pt;
+	font-size: 12pt;
 }
 .slider .carousel-caption {
 	background-color: rgba(0,0,0,0.4);
@@ -122,8 +121,8 @@ body {
 	text-transform: uppercase;
 	font-size: 24pt;
 	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .galerija .slika .maska {
 	background-color: #000;
@@ -165,13 +164,13 @@ body {
 
 /* ------ Kontakt / početak ------ */
 .kontakt {
-	background-color: #F1C40F;
+	background-color: #808080;
 	padding: 50px 30px;
-	margin-top: 60px;
+	margin-top: 50px;
 }
 .kontakt h1 {
-	font-size: 22pt;
-	font-family: 'Lobster', cursive;
+	font-size: 24pt;
+	font-family: 'Helvetica',
 	padding-bottom: 30px;
 }
 .kontakt input[type=text],
@@ -181,14 +180,14 @@ body {
 	border-radius: 0;
 }
 .kontakt input {
-	height: 50px;
+	height: 40px;
 }
 .kontakt button[type=submit] {
-	background-color: #222;
+	background-color: #000;
 	border: 0;
 	border-radius: 0;
 	width: 200px;
-	height: 50px;
+	height: 40px;
 }
 @media screen and (max-width:575px) {
 	.kontakt button[type=submit] {
@@ -196,8 +195,8 @@ body {
 	}
 }
 .kontakt ::placeholder {
-	font-size: 14pt;
-	font-family: 'Lobster', cursive;
+	font-size: 8pt;
+	font-family: 'Helvetica', cursive;
 }
 /* ------ Kontakt / kraj ------ */
 
@@ -314,7 +313,7 @@ body {
 }
 @media screen and (max-width:767px) {
 	.clanak h2 {
-		margin-top: 20px;
+		margin-top: 20px;		
 	}
 }
 @media screen and (max-width:575px) {
